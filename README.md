@@ -32,6 +32,9 @@ ChatApp is a modern, real-time messaging application built with Next.js, Tailwin
 
 The project follows a modular and clean folder structure, leveraging Next.js's App Router conventions:
 
+Sure, here is that folder structure in a markdown code block:
+
+```
 my-chatapp/
 ├── app/                  # Next.js App Router core (routes, layouts, global styles)
 │   ├── layout.tsx        # Root layout for the application
@@ -56,17 +59,12 @@ my-chatapp/
 │   └── init.ts
 ├── interfaces/           # Shared TypeScript interfaces and types
 │   └── index.ts
-├── public/               # Static assets (images, favicons, etc.)
-│   └── google-logo.svg
-│   └── favicon.ico
-├── utils/                # Utility functions and helpers
-│   └── constants.ts
 ├── .env.local            # Environment variables (Firebase API keys)
 ├── package.json          # Project dependencies and scripts
 ├── tailwind.config.ts    # Tailwind CSS configuration
 ├── tsconfig.json         # TypeScript configuration
 └── ... (other config files like .eslintrc.json, postcss.config.js)
-
+```
 
 
 ---
